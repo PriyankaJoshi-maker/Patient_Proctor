@@ -1,0 +1,37 @@
+html, body {
+		height: 100%;
+		margin: 0;
+		background-color: #ffa366;
+		}
+
+img {
+  border-radius: 10%;
+}	
+
+.img-fluid{
+	width: inherit;
+	
+}	
+
+.btn{
+	font-weight: 900;
+}		
+
+.btn-primary{
+	color: #000;
+	background-color: #dee2e6;
+	border-color: #dee2e6;;
+}
+
+
+.modal-header {
+    background-color: #ffa366;
+}
+
+.modal-body {
+	 background-color: #dee2e6;
+}
+
+.modal-footer{
+	 background-color: #dee2e6;
+}
