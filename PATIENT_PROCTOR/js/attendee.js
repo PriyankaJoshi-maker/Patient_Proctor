@@ -12,7 +12,7 @@ function myTimer() {
 
 setTimeout(function() {
     $('#form').modal();
-}, 5000);
+}, 10000);
 
 $('#contentId').hide();
 $('.sticky-footer').hide();
@@ -30,9 +30,9 @@ $('.sticky-footer').hide();
 		 $('.sticky-footer').hide(); 
 	  }
 	  else{
-		  alert("Either patient has left or the records are not updated.");
 		  $('#contentId').hide();
 		  $('.sticky-footer').hide();
+		  alert("Either patient has left or the records are not updated.");		  
 	  }
 	  });
 	  
